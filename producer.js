@@ -28,6 +28,7 @@ async function run() {
 	} catch (ex) {
 		console.error(`Something bad happened ${ex}`);
 	} finally {
+		console.log("DONE!!!");
 		process.exit(0);
 	}
 }
